@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.header{
+  max-width: 100vw;
+  min-width: 100vw;
+  display: flex;
+  position:fixed;
+  top:0;
+  /* border: 2px solid; */
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px 10px silver;
+  padding-bottom: 10px;
+
+}
+
+
+
+
+.header h2{
+  float: left;
+  /* padding-top: 5px; */
+  margin-top: 7px;
+  margin-left: 10px;
+  font-size: x-large;
+}
+.header img{
+  float: left;
+  width: 50px;
+  display: block;
+  margin-left: 6px;
+}
+
+
+.enterclass{
+  margin-left: 60%;
+  width: 300px;
+  /* background-color: blue; */
+  
+  margin-top: 12px;
+}
+
+.enterclassop{
+  padding: 10px;
+  text-decoration: none;
+  
+}
+
+
+.nav{
+
+  /* height: 50px; */
+  background: rgb(171, 145, 231);
+  box-shadow: 10px 1px 10px rgb(152, 146, 146);
+  margin-top: auto;
+  width: 30%;
+  height: 40px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 5%;
+
+  /* border:  2px solid; */
+
+}
+
+.nav:hover{
+
+  background-color: transparent;
+}
+
+.navop{
+  margin-right: 10px;
+  padding:-1px;
+ 
+}
+
+.singleclassnamefornavop{
+   text-decoration:none;
+   color:rgb(0, 0, 0);
+   /* background-color: blue; */
+}
+
+/* .main_home{
+  border: 2px solid;
+  min-width: 100vw;
+  max-width: 100vw;
+/* height: 100vh; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+
+  
+
+  
+  
+/* } */ 
